@@ -2,8 +2,6 @@ package com.blog.dao;
 
 import com.blog.po.UserBasicInfo;
 
-import java.util.List;
-import org.apache.ibatis.annotations.Param;
 
 public interface UserBasicInfoDao {
 

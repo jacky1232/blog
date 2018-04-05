@@ -1,5 +1,7 @@
 package com.blog.service;
 
+import com.blog.po.UserBasicInfo;
+
 /**
  * @Author: yirui_dai
  * @Description:
@@ -7,4 +9,5 @@ package com.blog.service;
  */
 
 public interface UserInfoService {
+    boolean saveUserBasicInfo(UserBasicInfo userBasicInfo);
 }
